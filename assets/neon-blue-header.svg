@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020817"/><stop offset="1" stop-color="#071b35"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16c8ff"/><stop offset=".55" stop-color="#287bff"/><stop offset="1" stop-color="#8be9ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<g stroke="#168cff" stroke-opacity=".28" fill="none"><path d="M0 70H1200M0 290H1200M80 0V360M1120 0V360"/><path d="M0 180H1200" stroke-dasharray="5 12"/></g>
+<path d="M24 92V28H1176V92M24 268V332H1176V268" fill="none" stroke="url(#blue)" stroke-width="3" filter="url(#glow)"/>
+<circle cx="1000" cy="180" r="115" fill="none" stroke="#168cff" stroke-width="1.5" opacity=".65"/>
+<circle cx="1000" cy="180" r="90" fill="none" stroke="#37cfff" stroke-width="1" stroke-dasharray="4 8"/>
+<ellipse cx="1000" cy="180" rx="115" ry="42" fill="none" stroke="#37cfff" stroke-width="2" transform="rotate(-28 1000 180)" filter="url(#glow)"/>
+<path d="M885 180H1115M1000 65V295" stroke="#37cfff" opacity=".35"/>
+<g fill="#7fe6ff" filter="url(#glow)"><circle cx="1000" cy="65" r="4"/><circle cx="1115" cy="180" r="4"/><circle cx="1000" cy="295" r="4"/><circle cx="885" cy="180" r="4"/></g>
+<text x="72" y="82" fill="#5bdcff" font-family="monospace" font-size="18" letter-spacing="5">WALYROBERT // GITHUB PORTFOLIO</text>
+<text x="68" y="178" fill="#f3f9ff" font-family="Arial,sans-serif" font-size="68" font-weight="700">Waly Robert</text>
+<text x="72" y="222" fill="#28cfff" font-family="Arial,sans-serif" font-size="27" font-weight="600">Gestão • Inovação • Inteligência Artificial</text>
+<text x="72" y="264" fill="#c5d8ec" font-family="monospace" font-size="17">CIÊNCIA DE DADOS  /  AUTOMAÇÃO  /  VISÃO COMPUTACIONAL  /  3D</text>
+<text x="1000" y="185" text-anchor="middle" fill="#b9f3ff" font-family="monospace" font-size="18" letter-spacing="3">INOVAÇÃO</text>
+<text x="1000" y="210" text-anchor="middle" fill="#65dfff" font-family="monospace" font-size="12">EM MOVIMENTO</text>
+</svg>
